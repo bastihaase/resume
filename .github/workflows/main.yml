@@ -21,6 +21,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Show_Path
+      run: echo $(ls)
+      shell: bash
+
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@master
       with:
