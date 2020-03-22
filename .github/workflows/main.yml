@@ -24,7 +24,7 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@master
       with:
-        root_file: ${{ GITHUB_WORKSPACE }}/resume.tex
+        root_file: $GITHUB_WORKSPACE/resume.tex
 
     - name: Release
       uses: softprops/action-gh-release@v1
