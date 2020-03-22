@@ -33,7 +33,6 @@ jobs:
     - name: Release
       uses: softprops/action-gh-release@v1
       with:
-      if: startsWith(github.ref, 'refs/tags/')
         files: resume.pdf
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
