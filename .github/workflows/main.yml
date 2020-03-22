@@ -5,9 +5,8 @@ name: Compile-PDF
 
 on:
   push:
-    branches: [ master ]
     tags:
-     - v*.*
+      - v1
 
 
 jobs:
