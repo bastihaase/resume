@@ -1,4 +1,6 @@
 # Private Repository for Resume
+![](https://github.com/bastihaase/resume/workflows/Compile-PDF/badge.svg)
+
 
 ## Content
 
